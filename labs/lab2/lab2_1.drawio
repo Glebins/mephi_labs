@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T20:37:06.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qtxuqVHKYRBiBvfZV6Yq" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T20:39:28.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qBcAxzY45W_Ca25P_j9d" version="20.4.0" type="github">
   <diagram id="qTtcVOJ4ErR_S3zqV3l9" name="Страница 1">
     <mxGraphModel dx="1865" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="7ulog912auHwQrE-v7mK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-15" target="7ulog912auHwQrE-v7mK-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ulog912auHwQrE-v7mK-15" value="cos_1(x, n)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7ulog912auHwQrE-v7mK-15" value="cos_2(x, eps, *n)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ulog912auHwQrE-v7mK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-17" target="7ulog912auHwQrE-v7mK-20">
