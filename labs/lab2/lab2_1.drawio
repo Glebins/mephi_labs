@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T20:39:28.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qBcAxzY45W_Ca25P_j9d" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T20:42:35.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xVrGi4DU3G2mI0EeNSbw" version="20.4.0" type="github">
   <diagram id="qTtcVOJ4ErR_S3zqV3l9" name="Страница 1">
     <mxGraphModel dx="1865" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="7ulog912auHwQrE-v7mK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-4" target="7ulog912auHwQrE-v7mK-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ulog912auHwQrE-v7mK-4" value="x, n&lt;br&gt;is_norm1 = scanf(x)&lt;br&gt;is_norm2 = scanf(n)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="7ulog912auHwQrE-v7mK-4" value="x, eps&lt;br&gt;is_norm1 = scanf(x)&lt;br&gt;is_norm2 = scanf(eps)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="100" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ulog912auHwQrE-v7mK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-7">
@@ -24,7 +24,7 @@
         <mxCell id="7ulog912auHwQrE-v7mK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-7" target="7ulog912auHwQrE-v7mK-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ulog912auHwQrE-v7mK-7" value="(is_norm1 != 1) ||&lt;br&gt;(is_norm2 != 1) ||&lt;br&gt;(n &amp;lt; 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7ulog912auHwQrE-v7mK-7" value="(is_norm1 != 1) ||&lt;br&gt;(is_norm2 != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="190" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7ulog912auHwQrE-v7mK-8" value="&quot;Incorrect input&quot;&lt;br&gt;return 0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
