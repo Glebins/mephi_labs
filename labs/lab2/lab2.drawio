@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T19:46:57.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-eFIznPFZUiEMiwRzzTj" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T19:49:21.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MMuCJo77KChBfLvTYGEB" version="20.4.0" type="github">
   <diagram id="XUMU6Klbx8vC4agGlKeW" name="Страница 1">
     <mxGraphModel dx="716" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -10,8 +10,20 @@
         <mxCell id="kJR66jxbIm6fvpwEPS24-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="10" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kJR66jxbIm6fvpwEPS24-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJR66jxbIm6fvpwEPS24-2" target="kJR66jxbIm6fvpwEPS24-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kJR66jxbIm6fvpwEPS24-2" value="x, n&lt;br&gt;is_norm1 = scanf(x)&lt;br&gt;is_norm2 = scanf(n)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="100" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJR66jxbIm6fvpwEPS24-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kJR66jxbIm6fvpwEPS24-4" target="kJR66jxbIm6fvpwEPS24-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kJR66jxbIm6fvpwEPS24-4" value="(is_norm1 != 1) ||&lt;br&gt;(is_norm2 != 1) ||&lt;br&gt;(n &amp;lt; 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kJR66jxbIm6fvpwEPS24-6" value="&quot;Incorrect input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
