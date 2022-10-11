@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T20:42:35.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xVrGi4DU3G2mI0EeNSbw" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T20:43:38.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hFx8nygqMxd5j9KAC0HM" version="20.4.0" type="github">
   <diagram id="qTtcVOJ4ErR_S3zqV3l9" name="Страница 1">
     <mxGraphModel dx="1865" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,8 +33,8 @@
         <mxCell id="7ulog912auHwQrE-v7mK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-10" target="7ulog912auHwQrE-v7mK-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ulog912auHwQrE-v7mK-10" value="res1 = cos_1(x, n);&lt;br&gt;res2 = cos x * cos x;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="7ulog912auHwQrE-v7mK-10" value="n = 0&lt;br&gt;res1 = cos_2(x, eps, *n);&lt;br&gt;res2 = cos x * cos x;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ulog912auHwQrE-v7mK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-12" target="7ulog912auHwQrE-v7mK-13">
           <mxGeometry relative="1" as="geometry" />
