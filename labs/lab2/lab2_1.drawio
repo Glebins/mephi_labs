@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T20:43:38.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hFx8nygqMxd5j9KAC0HM" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T20:46:01.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OB9I1yob_IH64GmhnGZ0" version="20.4.0" type="github">
   <diagram id="qTtcVOJ4ErR_S3zqV3l9" name="Страница 1">
     <mxGraphModel dx="1865" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="7ulog912auHwQrE-v7mK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-17" target="7ulog912auHwQrE-v7mK-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ulog912auHwQrE-v7mK-17" value="member = -x * x&lt;br&gt;sum = 1 + member" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7ulog912auHwQrE-v7mK-17" value="member = -x * x&lt;br&gt;sum = 1 + member&lt;br&gt;sum_prev = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ulog912auHwQrE-v7mK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-20" target="7ulog912auHwQrE-v7mK-21">
@@ -63,7 +63,7 @@
         <mxCell id="7ulog912auHwQrE-v7mK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ulog912auHwQrE-v7mK-20" target="7ulog912auHwQrE-v7mK-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7ulog912auHwQrE-v7mK-20" value="n == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7ulog912auHwQrE-v7mK-20" value="abs(abs(sum) - abs(sum_prev))" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="512.5" y="190" width="95" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7ulog912auHwQrE-v7mK-21" value="return 1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
