@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T21:26:17.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IQ5lgaAFft3vvAfM5gn1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T21:26:29.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="e9pCWZla5_50kMGGy5o-" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1370" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,9 +186,6 @@
         </mxCell>
         <mxCell id="oWPAb_pkZkKSnJByGjuv-22" value="arr1 = delete_element(arr1[i])" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="930" y="570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWPAb_pkZkKSnJByGjuv-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oWPAb_pkZkKSnJByGjuv-23" target="oWPAb_pkZkKSnJByGjuv-26">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oWPAb_pkZkKSnJByGjuv-23" value="counter++;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="930" y="680" width="120" height="60" as="geometry" />
