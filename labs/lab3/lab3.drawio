@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T15:09:25.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GWLazgBpY921dyrTlpMr" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T15:09:36.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SMtkGBg_qhNcQvCWiT6O" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,17 +202,32 @@
         <mxCell id="CnoShTyZxEkPXOH1vbHl-39" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="650" y="-42" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="CnoShTyZxEkPXOH1vbHl-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CnoShTyZxEkPXOH1vbHl-40" target="CnoShTyZxEkPXOH1vbHl-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CnoShTyZxEkPXOH1vbHl-40" value="do_task(...)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CnoShTyZxEkPXOH1vbHl-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CnoShTyZxEkPXOH1vbHl-41" target="CnoShTyZxEkPXOH1vbHl-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CnoShTyZxEkPXOH1vbHl-41" value="counter = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1165" y="204" width="180" height="81" as="geometry" />
         </mxCell>
+        <mxCell id="CnoShTyZxEkPXOH1vbHl-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CnoShTyZxEkPXOH1vbHl-42" target="CnoShTyZxEkPXOH1vbHl-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CnoShTyZxEkPXOH1vbHl-42" value="do_some_work(res_arr, arr1, &amp;amp;counter)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1165" y="355" width="180" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="CnoShTyZxEkPXOH1vbHl-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CnoShTyZxEkPXOH1vbHl-43" target="CnoShTyZxEkPXOH1vbHl-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CnoShTyZxEkPXOH1vbHl-43" value="do_some_work(res_arr, arr2, &amp;amp;counter)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="510" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CnoShTyZxEkPXOH1vbHl-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CnoShTyZxEkPXOH1vbHl-44" target="CnoShTyZxEkPXOH1vbHl-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CnoShTyZxEkPXOH1vbHl-44" value="free(arr1);&lt;br&gt;free(arr2);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="669" width="190" height="85" as="geometry" />
