@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T19:27:52.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="UDdyfmPdOVV3VPKuN1sP" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T19:31:29.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="z0KKOd1eUMgWGdrUWct2" type="github">
   <diagram id="8wYgv9-v7Nqe_bmdsXYR" name="Страница 1">
     <mxGraphModel dx="509" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,35 +12,94 @@
         <mxCell id="HPKZztkQSvlfVHkEudxe-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-4" target="HPKZztkQSvlfVHkEudxe-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="310" />
+              <mxPoint x="130" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-4" value="s = readline();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-5" target="HPKZztkQSvlfVHkEudxe-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="400" />
+              <mxPoint x="130" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-5" value="**words = split(s, &amp;amp;len);&lt;br&gt;*positions = malloc(0);&lt;br&gt;int curr_position = 0;&lt;br&gt;int counter = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="320" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-6" target="HPKZztkQSvlfVHkEudxe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-6" value="counter != len" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="72.5" y="440" width="115" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-7" target="HPKZztkQSvlfVHkEudxe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-7" target="HPKZztkQSvlfVHkEudxe-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-7" value="find(positions, curr_position) != -1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="72.5" y="640" width="115" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-8" target="HPKZztkQSvlfVHkEudxe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-8" value="curr_position++;&lt;br&gt;counter++;&lt;br&gt;continue;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-9" target="HPKZztkQSvlfVHkEudxe-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-9" value="char *word = words[curr_position];&lt;br&gt;char flag = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="950" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-10" target="HPKZztkQSvlfVHkEudxe-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1190" />
+              <mxPoint x="130" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-10" value="int i = curr_position + 1; i &amp;lt; len; i++;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-11" target="HPKZztkQSvlfVHkEudxe-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-11" value="char *word_curr = words[i];" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-12" target="HPKZztkQSvlfVHkEudxe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-12" value="is_anagrams(word, word_curr) == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="75" y="1350" width="120" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="HPKZztkQSvlfVHkEudxe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HPKZztkQSvlfVHkEudxe-13" target="HPKZztkQSvlfVHkEudxe-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1620" />
+              <mxPoint x="30" y="1620" />
+              <mxPoint x="30" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HPKZztkQSvlfVHkEudxe-13" value="flag = 1;&lt;br&gt;s = delete_substr (word_curr);&lt;br&gt;position[k] = i;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="1560" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
