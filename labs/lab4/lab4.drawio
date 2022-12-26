@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T11:23:27.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xht-x8VdADpOtAa9ft_z" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T11:26:51.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="sumacfDJWV_mKZU4YWlV" version="20.6.2" type="github">
   <diagram id="8wYgv9-v7Nqe_bmdsXYR" name="Страница 1">
     <mxGraphModel dx="1591" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,11 +99,20 @@
         <mxCell id="6DrzLgVvLqYIdJQF9eXx-20" value="Work(...)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6DrzLgVvLqYIdJQF9eXx-21" value="counter = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-21" value="counter = 0;&lt;br&gt;curr = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6DrzLgVvLqYIdJQF9eXx-23" value="counter != len" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-24" value="char*word = words[curr];&lt;br&gt;flag = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-25" value="int i = curr + 1; i &amp;lt; len; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-26" value="is_anagrams (word, word_curr)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="685" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
