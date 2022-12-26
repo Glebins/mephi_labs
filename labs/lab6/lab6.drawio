@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T14:38:01.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="FBClZ8RLuTLyaAMeVsF5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T14:40:24.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="yqM3LuVn8zSeAc0zq7mU" type="github">
   <diagram id="Y2vHarJacgxoCaG1EZnM" name="Страница 1">
     <mxGraphModel dx="613" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,20 +49,47 @@
         <mxCell id="xrbsxQGYiJHUY4e2r1St-6" value="input == &#39;\t&#39;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="660" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xrbsxQGYiJHUY4e2r1St-7" target="xrbsxQGYiJHUY4e2r1St-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xrbsxQGYiJHUY4e2r1St-7" value="input = &#39; &#39;;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xrbsxQGYiJHUY4e2r1St-9" target="xrbsxQGYiJHUY4e2r1St-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xrbsxQGYiJHUY4e2r1St-9" value="input == 32 &amp;amp;&amp;amp; prev_input == 32" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="900" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xrbsxQGYiJHUY4e2r1St-10" target="xrbsxQGYiJHUY4e2r1St-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xrbsxQGYiJHUY4e2r1St-10" target="xrbsxQGYiJHUY4e2r1St-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="1060" />
+              <mxPoint x="210" y="1240" />
+              <mxPoint x="130" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xrbsxQGYiJHUY4e2r1St-10" value="(input = getchar()) == EOF" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1020" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xrbsxQGYiJHUY4e2r1St-11" target="xrbsxQGYiJHUY4e2r1St-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xrbsxQGYiJHUY4e2r1St-11" value="break;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xrbsxQGYiJHUY4e2r1St-12" value="continue;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-24" value="push_back(str, input);&lt;br&gt;prev_input = input;&lt;br&gt;input = getchar();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrbsxQGYiJHUY4e2r1St-25" value="str = individual_work(str);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
