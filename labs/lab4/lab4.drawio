@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T11:37:27.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6I9RvBNBr8rmoDeO89l-" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T11:39:14.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1EJOrj4sMt51u4q2l5It" version="20.6.2" type="github">
   <diagram id="8wYgv9-v7Nqe_bmdsXYR" name="Страница 1">
     <mxGraphModel dx="1591" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,8 +158,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6DrzLgVvLqYIdJQF9eXx-28" value="flag = 1;&lt;br&gt;ptr = strstr(s, word_curr);&lt;br&gt;s = delete_substrs(s, ptr)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-28" value="flag = 1;&lt;br&gt;ptr = strstr(s, word_curr);&lt;br&gt;s = delete_substrs(s, ptr, strlen(word_curr))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="915" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-41" value="flag" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="685" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6DrzLgVvLqYIdJQF9eXx-42" value="ptr = strstr(s, word);&lt;br&gt;s = delete_substr(s, ptr, strlen(word));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
