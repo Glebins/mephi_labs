@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T13:31:20.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="fh2-EsNs--vlngL2tl27" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T13:32:30.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="fUVnbeDuiXagzQUq_gqP" type="github">
   <diagram id="HbO-oeB4ZDEKmDJyMFwg" name="Страница 1">
     <mxGraphModel dx="744" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,10 +156,22 @@
           <mxGeometry x="660" y="380" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6e8R9i7tNzXBAQGMwVUI-42" value="return get_null_page();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e8R9i7tNzXBAQGMwVUI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6e8R9i7tNzXBAQGMwVUI-44" target="6e8R9i7tNzXBAQGMwVUI-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6e8R9i7tNzXBAQGMwVUI-44" value="*str1 = substr(str, 0, pos1);&lt;br&gt;*str2 = substr(str, pos1+2, pos2-pos1-2);&lt;br&gt;*str3 = substr(str, pos2+2, strlen(str)-1);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="490" width="150" height="80" as="geometry" />
+          <mxGeometry x="625" y="490" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6e8R9i7tNzXBAQGMwVUI-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6e8R9i7tNzXBAQGMwVUI-46" target="6e8R9i7tNzXBAQGMwVUI-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6e8R9i7tNzXBAQGMwVUI-46" value="id = atoi(str1);&lt;br&gt;defcon = str2;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e8R9i7tNzXBAQGMwVUI-47" value="return new_page(id, defcon, str3);" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="730" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
