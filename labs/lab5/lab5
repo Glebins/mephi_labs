@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T13:11:24.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="biR76JrkCr-0NDHAy3UE" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T13:13:27.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="PmYyYngccIEbsmjt845y" type="github">
   <diagram id="HbO-oeB4ZDEKmDJyMFwg" name="Страница 1">
     <mxGraphModel dx="521" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,11 @@
         <mxCell id="6e8R9i7tNzXBAQGMwVUI-5" value="char *s = get_str(finp);&lt;br&gt;Page p = split(s);&lt;br&gt;free(s);&lt;br&gt;arr_pages = realloc(...);&lt;br&gt;arr_pages[j] = p;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="500" width="145" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6e8R9i7tNzXBAQGMwVUI-6" value="some_sort(arr_pages, ...);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6e8R9i7tNzXBAQGMwVUI-6" value="print_pages(...);&lt;br&gt;some_sort(arr_pages, ...);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="58" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e8R9i7tNzXBAQGMwVUI-7" value="print_pages(...);&lt;br&gt;free(...);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
