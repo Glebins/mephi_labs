@@ -1,0 +1,4 @@
+23; debug; asd
+9; warn; sasssaasas
+132; info; hello
+5; fatal; milli
